@@ -311,3 +311,61 @@ footer p:nth-child(2){
 	margin-top: 5rem;
 	
 }
+
+@media (max-width: 768px){
+	nav ul li{
+		display: none;
+	}
+
+	.content{
+		margin-top: 5rem;
+	}
+
+	.main{
+		display: block;
+		text-align: center;
+		align-items: center;
+		
+	}
+
+	h1{
+		font-size: xx-large;
+	}
+
+	.main h2{
+		font-size: 2rem;
+		margin-right: 7rem;
+	}
+
+	.main h5{
+		margin-right: 7rem;
+	}
+
+	.main p{
+		font-size: 10px;
+		max-width: 400px;
+		margin-left: 2rem;
+	}
+	.main img{
+		width: 400px;
+		height: 400px;
+		padding: 2rem;
+		margin: 2rem;
+	}
+
+	#let-talk{
+		margin-right: 7rem;
+	}
+
+	.box{
+		display: block;
+		margin-left: 4rem;
+	}
+
+	.service h2{
+		font-size: 5rem;
+		text-align: center;
+		padding-right: 20rem;
+	}
+
+}
